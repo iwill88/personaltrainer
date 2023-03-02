@@ -1,0 +1,105 @@
+.carouselContainer1{
+    background: url(../../../assets/carousel/HeroImage1.png);
+    background-size: cover;
+    background-position: center;
+    height:940px;
+    width: 100%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 800ms;
+    
+}
+
+.carouselContainer2{
+    background: url(../../../assets/carousel/HeroImage2.png);
+    background-size: cover;
+    background-position: center;
+    height:940px;
+    width: 100%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 800ms;
+}
+
+.carouselContainer3{
+    background: url(../../../assets/carousel/HeroImage3.png);
+    background-size: cover;
+    background-position: center;
+    height:940px;
+    width: 100%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 800ms;
+}
+
+.carouselContainer4{
+    background: url(../../../assets/carousel/HeroImage4.png);
+    background-size: cover;
+    background-position: center;
+    height:940px;
+    width: 100%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 800ms;
+}
+
+
+.leftArrow{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    left:32px;
+    font-size: 45px;
+    color:#000000;
+    z-index: 1;
+}
+
+.leftArrow:hover{
+    
+    cursor:pointer
+
+}
+
+.rightArrow{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    right:32px;
+    font-size: 45px;
+    color:#000000;
+    z-index: 1;
+}
+
+.rightArrow:hover{
+    opacity: 0.8;
+    cursor:pointer
+}
+
+.buttonWhatsapp{
+    background-color: #9747FF;
+    text-transform: uppercase;
+    width:179px;
+    height: 36px;
+    border-radius: 10px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom: 160px;
+    left: 150px;
+    color: #FFFFFF;
+}
+
+.buttonWhatsapp span {
+    font-weight: 700;
+    
+    font-size:12px;
+    padding-left:15px;  
+}
+
+.buttonWhatsapp:hover {
+    background-color: rgba(250, 95, 255, 0.25);
+    color:#000000;
+}
+
